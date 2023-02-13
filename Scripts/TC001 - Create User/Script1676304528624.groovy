@@ -20,12 +20,10 @@ import org.openqa.selenium.Keys as Keys
 
 'Create User'
 createUser = WS.sendRequest(findTestObject('Create User', [('userName') : userName, ('job') : job]))
-
 println((('ini nama dan job' + userName) + ' ') + job)
 
 slurper = new JsonSlurper()
 def parseJson = slurper.parseText(createUser.getResponseText())
-
 def userId = parseJson.id
 
 GlobalVariable.userId = userId
