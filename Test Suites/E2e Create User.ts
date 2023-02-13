@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>E2e Create User</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6b8148bd-db2a-49a8-9382-125a84f36c0b</testSuiteGuid>
+   <testCaseLink>
+      <guid>468487ae-70a7-4b46-b5a2-6a774c3730d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC001 - Create User</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8187471e-0cb5-4de6-bfad-10014fa91236</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Create User Data</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a83677a9-be6b-4f7c-b878-5e004ee6759a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Update User Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8187471e-0cb5-4de6-bfad-10014fa91236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>9927ba1a-c87b-4ec2-83ef-ff8639b286e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8187471e-0cb5-4de6-bfad-10014fa91236</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>job</value>
+         <variableId>b8983775-7fcd-4b29-ae32-46c804da789c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a83677a9-be6b-4f7c-b878-5e004ee6759a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>93223405-23d3-4964-b06a-a0a8be9d203a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a83677a9-be6b-4f7c-b878-5e004ee6759a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>job</value>
+         <variableId>a118272a-2feb-4401-8d42-31b2bc963cff</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

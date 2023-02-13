@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Create User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f96e5777-c224-4993-94bc-4f9004df1a5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9927ba1a-c87b-4ec2-83ef-ff8639b286e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8983775-7fcd-4b29-ae32-46c804da789c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93223405-23d3-4964-b06a-a0a8be9d203a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a118272a-2feb-4401-8d42-31b2bc963cff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Adi'</defaultValue>
+      <description></description>
+      <id>9927ba1a-c87b-4ec2-83ef-ff8639b286e6</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Engineer'</defaultValue>
+      <description></description>
+      <id>b8983775-7fcd-4b29-ae32-46c804da789c</id>
+      <masked>false</masked>
+      <name>job</name>
+   </variable>
+   <variable>
+      <defaultValue>'Adi Purnomo'</defaultValue>
+      <description></description>
+      <id>93223405-23d3-4964-b06a-a0a8be9d203a</id>
+      <masked>false</masked>
+      <name>userNameUpdate</name>
+   </variable>
+   <variable>
+      <defaultValue>'SDET'</defaultValue>
+      <description></description>
+      <id>a118272a-2feb-4401-8d42-31b2bc963cff</id>
+      <masked>false</masked>
+      <name>jobUpdate</name>
+   </variable>
+</TestCaseEntity>
