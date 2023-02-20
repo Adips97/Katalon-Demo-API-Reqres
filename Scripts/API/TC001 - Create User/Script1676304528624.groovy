@@ -25,7 +25,6 @@ println((('ini nama dan job ' + userName) + ' ') + job)
 
 slurper = new JsonSlurper()
 def parseJson = slurper.parseText(createUser.getResponseText())
-
 def userId = parseJson.id
 
 GlobalVariable.userId = userId
