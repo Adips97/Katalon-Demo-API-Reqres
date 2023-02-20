@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Test-Learning-Katalon</name>
+   <name>Katalon-Demo-API-Reqres</name>
    <tag></tag>
    <UUID>2863bf70-67e5-46f6-a5e6-5a906fef4542</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Katalon Project\Katalon-Demo-API-Reqres\Test-Learning-Katalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,6 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <timeStampInProperties>false</timeStampInProperties>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
