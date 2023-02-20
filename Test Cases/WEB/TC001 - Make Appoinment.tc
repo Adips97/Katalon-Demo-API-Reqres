@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Make Appoinment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf4a57ef-63c1-48ac-8b5b-80d24016898e</testCaseGuid>
+   <variable>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>5c58f1c6-2a1f-4cc1-8183-7a4721c39c9a</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>3a7ed681-4fb2-4134-856d-162343a9c2f3</id>
+      <masked>false</masked>
+      <name>checked</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a1528dd2-0875-4c63-8716-e1d0f454a6da</id>
+      <masked>false</masked>
+      <name>unchecked</name>
+   </variable>
+</TestCaseEntity>
